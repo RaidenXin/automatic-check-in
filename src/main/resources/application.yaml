@@ -1,0 +1,12 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: automatic-check-in
+  task:
+    scheduling:
+      pool:
+        size: 20
+      thread-name-prefix: automatic-check-in-work-thread-
+
